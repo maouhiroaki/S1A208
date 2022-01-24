@@ -9,11 +9,13 @@
   margin: 0;
 }
 body {
+  background-image:url(wood.jpg);
+  text-align: center;
   margin: 0;
   padding: 40px;
 }
 .wrapper {
-  background: #f9f8ee;
+  background-color: rgb(234, 248, 185);
   width: 800px;
   max-width: 90%;
   margin: 0 auto;
@@ -25,14 +27,14 @@ header
 ----------------------------*/
 header { margin-bottom: 60px; }
 h1 { margin-bottom: 20px; }
-ul { background: #fff; }
+ul { background: rgb(255, 255, 255); }
 a {
   display: block;
   color: #196f6a;
   text-decoration: none;
   padding: 10px;
 }
-a:hover { background: #e4e3d6; }
+a:hover { background: hsl(0, 11%, 65%); }
 
 /*----------------------------
 main
@@ -52,3 +54,9 @@ em {
 /*----------------------------
 この下に、CSSの指定を記述していきましょう。
 ----------------------------*/
+ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex; 
+}
+li{flex: 1 1 20%;}
