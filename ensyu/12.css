@@ -13,7 +13,7 @@ a.second{
     line-height: 2;
 }
 a.second:link {color: #00f;}
-a.second:visited {color: #90a}
+a.second:visited {color: #90a;}
 a.second:hover{
     background-color: #ff0;
 } 
@@ -31,12 +31,12 @@ li:nth-of-type(even) {
     background-color: #ccc;
 }
 h3::before {content:"★";}
-a.thild::after{
+a.third::after{
     content: url(img/arrrow.png);
 }
 p.letter::first-letter{
     font-size:2em;
 }
-p.line::first-letter{
+p.line::first-line{
     color:#f0f;
 }
